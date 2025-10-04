@@ -1,0 +1,89 @@
+body {
+  background: #f4f4f9;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+.bot-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.socials img {
+  width: 30px;
+  margin: 8px;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.tab-buttons button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background: #eee;
+  font-weight: bold;
+}
+
+.tab-buttons .active {
+  background: black;
+  color: white;
+}
+
+#numberInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#generateBtn, #copyBtn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#resultBox {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  color: #333;
+  font-size: 0.9rem;
+}
