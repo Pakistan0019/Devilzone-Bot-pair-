@@ -1,18 +1,18 @@
 
 {
-  "name": "QADEER-MD-PAIR",
+  "name": "DEVILZONE-BOT-PAIR",
   "version": "1.0.0",
   "description": "A multi-functional WhatsApp bot with web pairing functionality",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name QADEER-MD",
-    "stop": "pm2 stop QADEER-MD",
-    "restart": "pm2 restart QADEER-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name DEVILZONE-BOT",
+    "stop": "pm2 stop DEVILZONE-BOT",
+    "restart": "pm2 restart DEVILZONE-BOT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Qadeer-MD",
+  "author": "DEVILZONE-BOT",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
