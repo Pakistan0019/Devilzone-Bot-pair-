@@ -56,27 +56,27 @@ router.get('/', async (req, res) => {
                     const credsPath = path.join(tempDir, 'creds.json');
                     const sessionData = fs.readFileSync(credsPath, 'utf8');
                     const base64 = Buffer.from(sessionData).toString('base64');
-                    const sessionId = "QADEER-MD~" + base64;
+                    const sessionId = "DEVILZONE-BOT~" + base64;
 
                     await sock.sendMessage(sock.user.id, { text: sessionId });
 
                     const successMsg = {
                         text:
-                            `🚀 *QADEER-MD Session Created!*\n\n` +
+                            `🚀 *DEVILZONE-BOT Session Created!*\n\n` +
                             `▸ *Never share* your session ID\n` +
                             `▸ Join our WhatsApp Channel\n` +
                             `▸ Report bugs on GitHub\n\n` +
                             `_Powered by QADEER-MD\n\n` +
                             `🔗 *Useful Links:*\n` +
-                            `▸ https://github.com/QADEER-XD/QADEER-MD_v16/tree/main\n` +
-                            `▸ https://whatsapp.com/channel/0029VbAkAEhCRs1g8MmyEJ2K`,
+                            `▸ https://github.com/Pakistan0019/Devilzone-Bot/tree/main\n` +
+                            `▸ https://whatsapp.com/channel/0029Vb78HPUGJP8R6QjnKc1K`,
                         contextInfo: {
                             mentionedJid: [sock.user.id],
                             forwardingScore: 1000,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: "120363418906972955@newsletter",
-                                newsletterName: "QADEER-MD",
+                                newsletterJid: "120363404898225478@newsletter",
+                                newsletterName: "DEVILZONE-BOT",
                                 serverMessageId: 143
                             }
                         }
